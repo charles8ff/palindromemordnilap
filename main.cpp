@@ -11,7 +11,7 @@ using namespace std;
 
 bool isItPalindrome(string s, int i){
     // Clarity purposes:
-    cout << "Evaluating: \"" << s[i] << "\" and \""<< s[ s.size()-i-1 ]<<"\""<<endl;
+    cout << "Evaluando: \"" << s[i] << "\" and \""<< s[ s.size()-i-1 ]<<"\""<<endl;
 
     if( i > s.size()/2) return true;
     // else
@@ -22,7 +22,7 @@ int main (){
 
 
     string myIntput;
-    cout << "Introduza una palabra a deterimar:\n\t>>";
+    cout << "Introduza una palabra a determinar:\n\t>>";
     getline(cin, myIntput);
 
     if (isItPalindrome(myIntput, 0))
